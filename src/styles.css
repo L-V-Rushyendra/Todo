@@ -1,0 +1,60 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-image: linear-gradient(to right, #555555, #0a2f3f);
+}
+
+.title {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+}
+
+input {
+  background: #181a19;
+  border: none;
+  border-radius: 25px;
+  position: relative;
+  display: block;
+  outline: none;
+  width: 400px;
+  height: 15px;
+  margin: 0 auto;
+  padding: 10px;
+  padding-left: 20px;
+  color: #5c5e5d;
+  -webkit-box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.5);
+}
+::-webkit-input-placeholder {
+  color: #666;
+}
+:-moz-placeholder {
+  color: #666;
+}
+::-moz-placeholder {
+  color: #666;
+}
+:-ms-input-placeholder {
+  color: #666;
+}
+.combine {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+button {
+  position: absolute;
+  outline: #181a19;
+  right: px;
+  left: 405px;
+  height: 35px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  display: block;
+}
+button:focus {
+  outline: none;
+}
